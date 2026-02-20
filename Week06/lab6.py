@@ -205,7 +205,7 @@ def write_to_log(filename, entry):
 def read_log(filename):
     """Read and return the entire contents of a log file."""
     # *** YOUR CODE HERE ***
-    with open("myfile.txt", "r") as file:
+    with open(filename, "r") as file:
         return file.read()
 
 
@@ -234,7 +234,7 @@ def log_command_result(command_name, target, output, filename):
 #
 # ============================================================
 
-LOG_FILE = "diagnostics.csv"
+LOG_FILE = "Week06/diagnostics.csv"
 
 
 def log_to_csv(filename, command, target, result, status):
@@ -420,7 +420,7 @@ def do_ping():
     print("  Avg Latency: " + str(ping_data["avg_ms"]) + " ms")
 
     log_to_csv(LOG_FILE, "ping", host, ping_data["avg_ms"], ping_data["status"])
-    log_command_result("PING", host, output, "network_log.txt")
+    log_command_result("PING", host, output, "Week06/network_log.txt")
     print("Result logged.")
 
 

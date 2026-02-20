@@ -1,6 +1,0 @@
-2026-02-20 11:02:15,ping,google.com,5,Success
-2026-02-20 11:02:32,nslookup,github.com,Not found,Failed
-2026-02-20 11:02:37,ipconfig,all,10-A5-1D-7B-7D-5D / 10.4.144.146,Captured
-2026-02-20 11:02:38,arp,local,8 devices,Captured
-2026-02-20 11:28:13,nslookup,github.com,Not found,Failed
-2026-02-20 11:29:24,nslookup,github.com,Not found,Failed
