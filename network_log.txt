@@ -1,0 +1,36 @@
+[2026-02-20 10:42:46] PING google.com
+
+Pinging google.com [192.178.192.139] with 32 bytes of data:
+Reply from 192.178.192.139: bytes=32 time=3ms TTL=113
+Reply from 192.178.192.139: bytes=32 time=4ms TTL=113
+Reply from 192.178.192.139: bytes=32 time=16ms TTL=113
+
+Ping statistics for 192.178.192.139:
+    Packets: Sent = 3, Received = 3, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 3ms, Maximum = 16ms, Average = 7ms
+----------------------------------------
+[2026-02-20 10:43:09] PING thecloakcollective.com
+
+Pinging thecloakcollective.com [185.199.110.153] with 32 bytes of data:
+Reply from 185.199.110.153: bytes=32 time=2ms TTL=59
+Reply from 185.199.110.153: bytes=32 time=225ms TTL=59
+Reply from 185.199.110.153: bytes=32 time=5ms TTL=59
+
+Ping statistics for 185.199.110.153:
+    Packets: Sent = 3, Received = 3, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 225ms, Average = 77ms
+----------------------------------------
+[2026-02-20 11:02:15] PING google.com
+
+Pinging google.com [192.178.192.100] with 32 bytes of data:
+Reply from 192.178.192.100: bytes=32 time=3ms TTL=114
+Reply from 192.178.192.100: bytes=32 time=6ms TTL=114
+Reply from 192.178.192.100: bytes=32 time=8ms TTL=114
+
+Ping statistics for 192.178.192.100:
+    Packets: Sent = 3, Received = 3, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 3ms, Maximum = 8ms, Average = 5ms
+----------------------------------------
